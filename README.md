@@ -1,0 +1,1 @@
+# rdeck-slackware
