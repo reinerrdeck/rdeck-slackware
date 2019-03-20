@@ -1,4 +1,4 @@
-# rdeck-slackware
+# rdeck-slackware "Runware"
 Unofficial Rundeck port for Slackware Linux
 
 ![alt text](https://readonlyfridayshome.files.wordpress.com/2019/03/rundeck_slackware.png)
@@ -16,15 +16,16 @@ useradd -g 263 -u 263 -r -s /bin/bash -d /var/lib/rundeck rundeck
 ```
 # Steps to build Rundeck Slackware package
 1. git clone https://github.com/reinerrdeck/rdeck-slackware
-2. tar xvf rundeck-3.0.7.tar.gz
-3. cd var/lib/rundeck/bootstrap/
-4. wget -c https://dl.bintray.com/rundeck/rundeck-maven/rundeck-3.0.17-20190311.war 
-5. cd ../../../../../
-6. tar cfJ rundeck-3.0.17.tar.xz rundeck-3.0.17
-7. mv rundeck-3.0.17.tar.xz build/
-8. cd build/
-9. chmod +x rundeck.SlackBuild
-10. ./rundeck.Slackbuild (as root)
+2. cd rdeck-slackware/
+3. tar xvf rundeck-3.0.7.tar.gz
+4. cd var/lib/rundeck/bootstrap/
+5. wget -c https://dl.bintray.com/rundeck/rundeck-maven/rundeck-3.0.17-20190311.war 
+6. cd ../../../../../
+7. tar cfJ rundeck-3.0.17.tar.xz rundeck-3.0.17
+8. mv rundeck-3.0.17.tar.xz build/
+9. cd build/
+10. chmod +x rundeck.SlackBuild
+11. ./rundeck.Slackbuild (as root)
 
 The build process takes a moment, depending of your hardware.
 
