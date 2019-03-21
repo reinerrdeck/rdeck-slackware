@@ -17,7 +17,7 @@ useradd -g 263 -u 263 -r -s /bin/bash -d /var/lib/rundeck rundeck
 # Steps to build Rundeck Slackware package
 1. git clone https://github.com/reinerrdeck/rdeck-slackware
 2. cd rdeck-slackware/
-3. tar xvf rundeck-3.0.7.tar.gz
+3. tar xvf rundeck-3.0.17.tar.gz
 4. cd var/lib/rundeck/bootstrap/
 5. wget -c https://dl.bintray.com/rundeck/rundeck-maven/rundeck-3.0.17-20190311.war 
 6. cd ../../../../../
