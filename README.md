@@ -31,10 +31,6 @@ The build process takes a moment, depending of your hardware.
 
 The package is generated in /tmp directory.
 
-# Binary package (3.0.17)
-
-You can obtain binary package from [here](https://drive.google.com/open?id=1eXTffBpYmnEscjkpJpNW0xxXpYsbXCiv).
-
 # How to install Rundeck package
 ```
 installpkg /tmp/rundeck-3.0.17-x86_64-1_SBo.txz
