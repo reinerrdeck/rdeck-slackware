@@ -25,17 +25,19 @@ useradd -g 263 -u 263 -r -s /bin/bash -d /var/lib/rundeck rundeck
 8. mv rundeck-3.0.17.tar.xz build/
 9. cd build/
 10. chmod +x rundeck.SlackBuild
-11. ./rundeck.Slackbuild (as root)
+11. ./rundeck.Slackbuild (as root user)
 
 The build process takes a moment, depending of your hardware.
 
 The package is generated in /tmp directory.
 
 # How to install Rundeck package
+As root user:
 ```
 installpkg /tmp/rundeck-3.0.17-x86_64-1_SBo.txz
 ```
 # How to launch Rundeck
+As root user:
 ```
 . /etc/rc.d/rc.rundeck start
 ```
@@ -48,6 +50,7 @@ user:admin
 password:admin
 
 # How to stop Rundeck
+As root user:
 ```
 . /etc/rc.d/rc.rundeck stop
 ```
